@@ -1,7 +1,14 @@
+
 body{
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+body,html,#particles-js{
+    display: block;
+   height: 100%;
+   width: 100%;
+   transform: translate3d(0, 0, 0);
 }
 .content{
     top:5px;
