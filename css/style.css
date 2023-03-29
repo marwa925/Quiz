@@ -52,6 +52,9 @@ input[type=number] {
     .content{
         width: 90%;
     }
+    .content h1{
+        font-size: 3rem;
+    }
     .carD{
         font-size: 1rem;
     }
