@@ -1,44 +1,30 @@
-
 body{
-    /* background-color: black; */
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-image: url(../img/image.jpg);
-background-size: cover;
-/* background-repeat: no-repeat; */
-background-position: center;
-
-}
-body,html{
-    display: block;
-   height: 100%;
-   width: 100%;
-   transform: translate3d(0, 0, 0);
 }
 .content{
-    /* top:5px;
+    top:5px;
     left: 50% ;
-    
-    transform: translateX(-50%) ; */
     width: 70%;
-    margin: auto;
+    transform: translateX(-50%) ;
 }
 .content h1{
     font-size: 5rem;
     background: #121FCF;
-background: linear-gradient(to right, #146C94 20%, #F6F1F1 80%);
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 text-align: center;
 }
 .carD{
-    background-color: #146b94c2;
+    background-color: rgba(60, 55, 55, 0.726);
     padding: 20px;
     color: #fff;
     display: none;
 }
 .quiz,.final{
-    background-color: #146b94c2;
+    background-color: rgba(60, 55, 55, 0.726);
     padding: 20px;
     color: #fff;
     display: none;
@@ -59,16 +45,9 @@ input[type=number] {
 .ques{
     width: 75%;
 }
-#categ , #numQes{
-    background-color: #146b948a;
-}
-
 @media screen and (max-width:500px) {
     html{
         font-size: 14px;
-    }
-    .content h1{
-        font-size: 3rem;
     }
     .content{
         width: 90%;
