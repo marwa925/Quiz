@@ -58,6 +58,9 @@ input[type=number] {
     html{
         font-size: 14px;
     }
+    .content h1{
+        font-size: 2rem;
+    }
     .content{
         width: 90%;
     }
