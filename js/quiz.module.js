@@ -45,7 +45,7 @@ export class Quiz{
             if(this.currentIndex > this.result.length-1){
                 $(".quiz").removeClass("show");
                 $(".final").addClass("show");
-                document.getElementById("score").innerHTML=this.score++;
+                document.getElementById("score").innerHTML=this.score;
             }else{
                 if(checked== this.correctAnswer){
                     $("#correct").fadeIn(100).fadeOut(100);
