@@ -4,17 +4,19 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-body,html,#particles-js{
+body,html{
     display: block;
    height: 100%;
    width: 100%;
    transform: translate3d(0, 0, 0);
 }
 .content{
-    top:5px;
+    /* top:5px;
     left: 50% ;
+    
+    transform: translateX(-50%) ; */
     width: 70%;
-    transform: translateX(-50%) ;
+    margin: auto;
 }
 .content h1{
     font-size: 5rem;
